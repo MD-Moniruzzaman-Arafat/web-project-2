@@ -357,3 +357,61 @@ header::after {
     justify-content: center;
     gap: 20px;
 }
+
+.subscribe-section-container {
+    width: 1320px;
+    /* height: 616px; */
+    margin: 100px auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.subscribe-section-container img {
+    width: 80px;
+}
+
+.subscribe-section-container h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subscribe-section-container p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    /* 160% */
+    width: 650px;
+    margin: 20px auto;
+}
+
+.subscribe-form input {
+    margin-right: -5px;
+    width: 250px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+}
+
+.subscribe-form button {
+    height: 40px;
+    /* width: 76px; */
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background: #f00;
+    color: white;
+    font-weight: 600;
+    padding: 0px 23px;
+}
