@@ -415,3 +415,29 @@ header::after {
     font-weight: 600;
     padding: 0px 23px;
 }
+
+footer {
+    background: #070211;
+}
+
+.footer-container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 50px 0;
+    color: white;
+}
+
+.footer-address {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.footer-social-media {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.footer-social-media img {
+    width: 40px;
+}
