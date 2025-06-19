@@ -313,3 +313,47 @@ header::after {
     position: absolute;
     top: 668px;
 }
+
+.portfolio-section-container {
+    margin: 100px auto;
+    width: 1320px;
+}
+
+.portfolio-section-container h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-section-container h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.portfolio-section-container p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    width: 700px;
+    margin-bottom: 20px;
+    /* 160% */
+}
+
+.portfolio-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
