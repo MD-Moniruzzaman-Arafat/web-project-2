@@ -170,6 +170,7 @@ header::after {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #FFF;
 }
 
 .coming-soon-description,
@@ -231,4 +232,84 @@ header::after {
 
 .coming-soon-description-two img {
     width: 100px;
+}
+
+.holiday-sale-container {
+    margin: 100px auto;
+    width: 1320px;
+    height: 934px;
+    align-items: center;
+}
+
+.holiday-sale-description {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.holiday-sale-description h5 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-sale-description h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.Holidays-title-color {
+    color: #F00;
+}
+
+.holiday-sale-description p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    width: 600px;
+    margin: 0 auto;
+    /* 160% */
+}
+
+.holiday-sale-image {
+    position: relative;
+    margin-top: -150px;
+}
+
+.img-one {
+    position: absolute;
+    width: 600px;
+    top: 350px;
+    left: 142px;
+    z-index: 1;
+}
+
+.img-two {
+    position: absolute;
+    top: 318px;
+    left: 718px;
+    z-index: 2;
+
+}
+
+.img-three {
+    position: absolute;
+    top: 235px;
+    left: 891px;
+    z-index: 1;
+}
+
+.img-four {
+    position: absolute;
+    top: 668px;
 }
